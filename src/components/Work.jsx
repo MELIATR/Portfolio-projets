@@ -1,5 +1,5 @@
 import React from "react";
-import { ExternalLink, Github, Sparkles, Smartphone, Globe, Code2 } from "lucide-react";
+import { ExternalLink, Github, Sparkles, Smartphone, Globe, Code2, Bot } from "lucide-react";
 
 const Work = () => {
  const projects = [
@@ -11,6 +11,17 @@ const Work = () => {
       color: "light",
       image: "🚗",
       github: "https://github.com/MELIATR/road-safety-backend",
+      demo: "#",
+      featured: true
+    },
+    {
+      title: "The Refactoring Swarm",
+      description: "Multi-agent system for automated Python code analysis, correction, and validation using LLMs. Combines static analysis, automatic fixing, and test-based validation through specialized agents (Auditor, Fixer, Judge) collaborating iteratively until the code is functional and follows best practices.",
+      tags: ["Python", "LangChain", "LangGraph", "Google Gemini", "Pylint", "Pytest", "Multi-Agent AI"],
+      icon: <Bot size={24} />,
+      color: "mid",
+      image: "🤖",
+      github: "https://github.com/MELIATR/tp_initiation_aux_agents_IA_et_LLM",
       demo: "#",
       featured: true
     },
